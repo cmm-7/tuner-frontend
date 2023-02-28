@@ -17,10 +17,10 @@ const NavigationBar = () => {
             </Link>
           </Nav>
           <Nav>
-            <Link to="/songs/new">Add Song</Link>
+            <Link className="nav-link" to="/songs/new">Add Song</Link>
           </Nav>
           <Nav>
-            <Link to="/playlists/new">Add Playlist</Link>
+            <Link className="nav-link" to="/playlists/new">Add Playlist</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
